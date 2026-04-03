@@ -24,7 +24,8 @@ public class LoginTest {
     @Test
     public void testTitle() {
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Google"));
+        Assert.assertTrue(title.contains("Googlesss"));
+       
     }
 
     @AfterMethod
