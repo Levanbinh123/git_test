@@ -1,2 +1,3 @@
+utils\ConfigUtil.class
 utils\DriverFactory.class
 com\example\selenium\framework\SeleniumFramework.class
