@@ -2,20 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-03T15:33:57 GMT+07:00" name="Surefire suite" finished-at="2026-04-03T15:34:03 GMT+07:00" duration-ms="5702">
+  <suite started-at="2026-04-03T15:53:53 GMT+07:00" name="Surefire suite" finished-at="2026-04-03T15:53:59 GMT+07:00" duration-ms="5859">
     <groups>
     </groups>
-    <test started-at="2026-04-03T15:33:57 GMT+07:00" name="Surefire test" finished-at="2026-04-03T15:34:03 GMT+07:00" duration-ms="5702">
+    <test started-at="2026-04-03T15:53:53 GMT+07:00" name="Surefire test" finished-at="2026-04-03T15:53:59 GMT+07:00" duration-ms="5859">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-04-03T15:33:57 GMT+07:00" name="setup" finished-at="2026-04-03T15:34:02 GMT+07:00" duration-ms="4744" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@4a22f9e2]" started-at="2026-04-03T15:53:53 GMT+07:00" name="setup" finished-at="2026-04-03T15:53:56 GMT+07:00" duration-ms="2864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testTitle()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-04-03T15:34:02 GMT+07:00" name="testTitle" finished-at="2026-04-03T15:34:02 GMT+07:00" duration-ms="13" status="PASS">
+        <test-method signature="testTitle()[pri:0, instance:tests.LoginTest@4a22f9e2]" started-at="2026-04-03T15:53:56 GMT+07:00" name="testTitle" finished-at="2026-04-03T15:53:56 GMT+07:00" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-04-03T15:34:02 GMT+07:00" name="tearDown" finished-at="2026-04-03T15:34:03 GMT+07:00" duration-ms="870" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4a22f9e2]" started-at="2026-04-03T15:53:56 GMT+07:00" name="tearDown" finished-at="2026-04-03T15:53:59 GMT+07:00" duration-ms="2830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
